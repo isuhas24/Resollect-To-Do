@@ -1,0 +1,25 @@
+.todo-input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.todo-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px 0 0 8px;
+}
+.todo-add-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  border-radius: 0 8px 8px 0;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.todo-add-btn:disabled {
+  background: #95a5a6;
+}
+.todo-add-btn:hover:not(:disabled) {
+  background-color: #2980b9;
+}
